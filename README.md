@@ -1,14 +1,8 @@
-# 🧠 Decoder-Only Transformer Internals
+#  Decoder-Only Transformer Internals
 ### *A complete end-to-end walkthrough using `microsoft/Phi-3-mini-4k-instruct`*
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/phi3-transformer-internals/blob/main/phi3_transformer_internals.ipynb)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch)](https://pytorch.org/)
-[![Transformers](https://img.shields.io/badge/Transformers-4.45.2-yellow?logo=huggingface)](https://huggingface.co/docs/transformers)
 
----
-
-## 📖 About
+## About
 
 This notebook demystifies how a **decoder-only Transformer language model** actually works — from raw text all the way to generated output — using nothing but PyTorch and Hugging Face Transformers.
 
@@ -51,23 +45,6 @@ next_token_id
 | 9 | Decoding Strategies | Greedy, sampling, temperature, top-K, top-P (nucleus) |
 | 10 | Mini Chat Demo | Multi-turn chat with conversation history management |
 | Bonus | Architecture | Full model structure, hyperparameters, GQA explained |
-
----
-
-##  Quick Start
-
-### Google Colab (Recommended, zero setup)
-
-Click the badge at the top of this README:
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OmarMeska/phi3-transformer-internals/blob/main/phi3_transformer_internals.ipynb)
-
-Before running:
-1. Go to `Runtime → Change runtime type → T4 GPU`
-2. Run **Cell 1** (installs packages + restarts are prompted)
-3. After the restart, run all remaining cells in order
-
-
 
 
 ## Concepts You'll Learn
